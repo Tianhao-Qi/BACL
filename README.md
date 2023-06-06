@@ -21,17 +21,17 @@ We tested on the following settings:
 - torchvision 0.4.0
 - [mmcv 1.2.7](https://github.com/open-mmlab/mmcv/tree/v1.2.7)
 
-#### 通过 Docker 使用 MMDetection
+#### Use MMDetection by Docker
 
-我们提供了一个 [Dockerfile](docker/Dockerfile) 来构建一个镜像。请确保你的 [docker 版本](https://docs.docker.com/engine/install/) >=19.03。
+We provide a [Dockerfile](docker/Dockerfile) to build an image. Ensure that you are using [docker version](https://docs.docker.com/engine/install/) >=19.03。
 
 ```shell
-# 基于 PyTorch 1.7.0，CUDA 11.0 构建镜像
-# 如果你想要其他版本，只需要修改 Dockerfile
+# build an image with PyTorch 1.7.0, CUDA 11.0
+# If you want to use another version, just modify the Dockerfile
 docker build -t mmdetection docker/
 ```
 
-用以下命令运行 Docker 镜像：
+Run it with:
 
 ```shell
 docker run --gpus all --shm-size=8g -it -v {DATA_DIR}:/mmdetection/data mmdetection
