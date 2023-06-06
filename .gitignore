@@ -125,8 +125,8 @@ run_multimasks3.sh
 run_test.sh
 
 # pictures
-*.jpg
-*.png
+# *.jpg
+# *.png
 *.pdf
 *.json
 *.npy
