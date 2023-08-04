@@ -1,7 +1,10 @@
 # Balanced Classification: A Unified Framework for Long-Tailed Object Detection
 
 
-This repo is the official implementation for paper: **Balanced Classification: A Unified Framework for Long-Tailed Object Detection**.
+This repo is the official implementation for paper: **Balanced Classification: A Unified Framework for Long-Tailed Object Detection** (Accepted by IEEE Transactions on Multimedia).
+
+## News
+**2023-08-03**: Our paper is accepted by IEEE Transactions on Multimedia (TMM) and to be published!
 
 ## Introduction
 
