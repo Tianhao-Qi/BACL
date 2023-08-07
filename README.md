@@ -1,5 +1,14 @@
+<div align=center>
+
 # Balanced Classification: A Unified Framework for Long-Tailed Object Detection
 
+</div>
+
+<div align=center>
+
+[![arXiv preprint](http://img.shields.io/badge/arXiv-2037.08723-b31b1b)](https://arxiv.org/abs/2308.02213)
+
+</div>
 
 This repo is the official implementation for paper: **Balanced Classification: A Unified Framework for Long-Tailed Object Detection** (Accepted by IEEE Transactions on Multimedia).
 
@@ -166,7 +175,16 @@ BACL | R101_FPN              | LVIS v1 | 27.8 | [config](configs/bacl/bacl_class
 [1] *Refer to more details in config files in `config/bacl/`.*
 
 ## Citation
+If you find it useful in your research, please consider citing our paper as follows:
 ```citation
+@misc{qi2023balanced,
+      title={Balanced Classification: A Unified Framework for Long-Tailed Object Detection}, 
+      author={Tianhao Qi and Hongtao Xie and Pandeng Li and Jiannan Ge and Yongdong Zhang},
+      year={2023},
+      eprint={2308.02213},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## Credit
