@@ -13,6 +13,12 @@
 This repo is the official implementation for paper: **Balanced Classification: A Unified Framework for Long-Tailed Object Detection** (Accepted by IEEE Transactions on Multimedia).
 
 ## News
+**2023-08-15**: We update the downloading urls of annotations for LVIS dataset (see [issue #1](https://github.com/Tianhao-Qi/BACL/issues/1#issue-1851117318)), which are expired.
+
+**2023-08-14**: Our paper receives publicity from the [极市平台](https://mp.weixin.qq.com/s/ns9yzjGVX7EBqD8YFJhtFw)!
+
+**2023-08-09**: Our paper is reported and interpreted by [CVHub](https://mp.weixin.qq.com/s/re7xdE8tE27DmzneMXzHvg)!
+
 **2023-08-03**: Our paper is accepted by IEEE Transactions on Multimedia (TMM) and to be published!
 
 ## Introduction
@@ -69,13 +75,13 @@ mkdir lvis_v1
 
 #### b. For dataset annotations:
 - Download lvis_v0.5 annotations:
-        [lvis_v0.5_train_ann](https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v0.5_train.json.zip) and
-        [lvis_v0.5_val_ann](https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v0.5_val.json.zip),
+        [lvis_v0.5_train_ann](https://dl.fbaipublicfiles.com/LVIS/lvis_v0.5_train.json.zip) and
+        [lvis_v0.5_val_ann](https://dl.fbaipublicfiles.com/LVIS/lvis_v0.5_val.json.zip),
 - Unzip all the files and put them under `lvis_v0.5/annotations`;
 
 - Download lvis_v1 annotations:
-        [lvis_v1_train_ann](https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v1_train.json.zip) and
-        [lvis_v1_val_ann](https://s3-us-west-2.amazonaws.com/dl.fbaipublicfiles.com/LVIS/lvis_v1_val.json.zip),
+        [lvis_v1_train_ann](https://dl.fbaipublicfiles.com/LVIS/lvis_v1_train.json.zip) and
+        [lvis_v1_val_ann](https://dl.fbaipublicfiles.com/LVIS/lvis_v1_val.json.zip),
 - Unzip all the files and put them under `lvis_v1/annotations`.
 
 **After all these operations, the folder `data` should be like this:**
