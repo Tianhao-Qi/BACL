@@ -13,6 +13,8 @@
 This repo is the official implementation for paper: **Balanced Classification: A Unified Framework for Long-Tailed Object Detection** (Accepted by IEEE Transactions on Multimedia).
 
 ## News
+**2023-08-19**: We upload visualizations of different methods to this repo!
+
 **2023-08-15**: We update the downloading urls of annotations for LVIS dataset (see [issue #1](https://github.com/Tianhao-Qi/BACL/issues/1#issue-1851117318)), which are expired.
 
 **2023-08-14**: Our paper receives publicity from the [极市平台](https://mp.weixin.qq.com/s/ns9yzjGVX7EBqD8YFJhtFw)!
@@ -20,6 +22,11 @@ This repo is the official implementation for paper: **Balanced Classification: A
 **2023-08-09**: Our paper is reported and interpreted by [CVHub](https://mp.weixin.qq.com/s/re7xdE8tE27DmzneMXzHvg)!
 
 **2023-08-03**: Our paper is accepted by IEEE Transactions on Multimedia (TMM) and to be published!
+
+## TODO
+
+- [ ] Integrate other SOTA methods to this repo
+- [ ] Release pretrained Faster R-CNN detector with Swin Transformer as backbone
 
 ## Introduction
 
@@ -179,6 +186,10 @@ BACL | R101_FPN              | LVIS v1 | 27.8 | [config](configs/bacl/bacl_class
 
 [0] *All results are obtained with a single model and without any test time data augmentation such as multi-scale, flipping and etc..* \
 [1] *Refer to more details in config files in `config/bacl/`.*
+
+## Visualization
+![visualization](resources/visualization.png)
+
 
 ## Citation
 If you find it useful in your research, please consider citing our paper as follows:
