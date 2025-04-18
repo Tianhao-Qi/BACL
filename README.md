@@ -6,7 +6,7 @@
 
 <div align=center>
 
-[![arXiv preprint](http://img.shields.io/badge/arXiv-2037.08723-b31b1b)](https://arxiv.org/abs/2308.02213)
+[![arXiv preprint](http://img.shields.io/badge/arXiv-2308.02213-b31b1b)](https://arxiv.org/abs/2308.02213)
 
 </div>
 
